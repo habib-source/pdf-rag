@@ -1,0 +1,14 @@
+services:
+  nginx:
+    restart: always
+    build:
+      context: .
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    ports:
+      - "80:8501"
