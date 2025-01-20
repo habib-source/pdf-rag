@@ -25,7 +25,7 @@ To run the ChatPDF project in a Docker environment with GPU support, follow the 
 
 ### Important Note on GPU Support in Docker Desktop (Windows)
 
-GPU support may not work as expected under Docker Desktop for Windows because it relies on a virtualization layer, and Windows doesn't natively support CUDA-enabled containers. For GPU support, Docker Desktop for Windows users may need to use a Linux-based system or Windows Subsystem for Linux (WSL 2) with proper GPU pass-through configurations. If you don't have an NVIDIA GPU or can't enable GPU support, you can still run the project in CPU mode.
+GPU support may not work as expected under Docker Desktop for Windows because it relies on a virtualization layer, and Windows doesn't natively support CUDA-enabled containers. For GPU support, Docker Desktop for Windows users may need to use a Linux-based system or Windows Subsystem for Linux (WSL 2) with proper GPU pass-through configurations.
 
 ### Steps
 
