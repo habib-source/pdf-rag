@@ -16,7 +16,7 @@ COPY . .
 RUN python3 -V && python3 -h
 RUN python3 -m venv env
 RUN source env/bin/activate
-ENV CMAKE_ARGS="-DGGML_CUDA=on -DCMAKE_CUDA_ARCHITECTURES=86"
+ENV CMAKE_ARGS="-DGGML_CUDA=on -DCMAKE_CUDA_ARCHITECTURES=all-major"
 RUN python3 -m ensurepip --upgrade
 RUN pip3 install -r requirements1.txt
 EXPOSE 8501
