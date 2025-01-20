@@ -2,6 +2,8 @@
 
 ChatPDF is a document-based AI assistant powered by large language models. It allows users to upload PDF files and interact with their content through a chatbot interface. The assistant is capable of retrieving relevant information from the uploaded documents and answering questions related to the content.
 
+![PDF RAG](./Chat.png)
+
 ## Features
 
 - **PDF Ingestion**: Upload PDF documents to be ingested by the assistant for context-based questioning.
@@ -161,5 +163,3 @@ We welcome contributions! Please fork the repository, create a feature branch, a
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-This README provides both Docker-based and manual installation methods, as well as an overview of how the project works, its features, and some potential troubleshooting steps. Let me know if you'd like any further clarifications!
