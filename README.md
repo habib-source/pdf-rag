@@ -1,9 +1,8 @@
 # ChatPDF Project
 
 ChatPDF is a document-based AI assistant powered by large language models. It allows users to upload PDF files and interact with their content through a chatbot interface. The assistant is capable of retrieving relevant information from the uploaded documents and answering questions related to the content.
-
-![PDF RAG](./Chat.png){ width=50% }
-![PDF RAG](./Chat1.png){ width=50% }
+<img src="./Chat.png" alt="drawing" width="200"/>
+<img src="Chat1.png" alt="drawing" width="200"/>
 
 ## Features
 
