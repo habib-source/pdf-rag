@@ -157,9 +157,3 @@ If you prefer to set up the project manually, follow these instructions:
 We welcome contributions! Please fork the repository, create a feature branch, and submit a pull request with your changes. If you have any issues or feature requests, feel free to open an issue on GitHub.
 
 ---
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
