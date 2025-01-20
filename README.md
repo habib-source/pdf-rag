@@ -104,7 +104,7 @@ If you prefer to set up the project manually, follow these instructions:
    - [Llama Model](https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf)
    - [Embed Model](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF/resolve/main/nomic-embed-text-v1.5.f32.gguf)
 
-   After downloading, you need to rename the model files to match the following names:
+   After downloading, you need to rename the models files to match the following names:
 
    - Rename the Llama model to model.gguf .
    - Rename the Embed model to embed.gguf .
