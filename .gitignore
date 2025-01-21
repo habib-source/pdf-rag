@@ -1,0 +1,6 @@
+*.gguf
+loed_backup.py
+ui_backup.py
+**/__pycache__
+env
+mob1.jpg
