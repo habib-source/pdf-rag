@@ -137,7 +137,7 @@ If you prefer to set up the project manually, follow these instructions:
 ├── docker-compose.yml          # Docker Compose file to manage services
 ├── requirements.txt            # Python dependencies
 ├── ui.py                       # Streamlit application
-├── ChatPDF.py                  # Core logic for PDF ingestion and Q&A
+├── loed.py                  # Core logic for PDF ingestion and Q&A
 ├── embed.gguf                  # Llama Embedding Model
 ├── model.gguf                  # Llama Model
 └── README.md                   # Project documentation (this file)
