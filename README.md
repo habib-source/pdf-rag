@@ -134,10 +134,12 @@ If you prefer to set up the project manually, follow these instructions:
 ```plaintext
 .
 ├── Dockerfile                  # Dockerfile for setting up the container
+├── .dockerignore               # Ignore this list of files when doing the Dockerfile COPY . . command
+├── .gitignore                  # Ignore this list of files when doing the git add . command
 ├── docker-compose.yml          # Docker Compose file to manage services
 ├── requirements.txt            # Python dependencies
 ├── ui.py                       # Streamlit application
-├── loed.py                  # Core logic for PDF ingestion and Q&A
+├── loed.py                  	# Core logic for PDF ingestion and Q&A
 ├── embed.gguf                  # Llama Embedding Model
 ├── model.gguf                  # Llama Model
 └── README.md                   # Project documentation (this file)
