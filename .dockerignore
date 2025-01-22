@@ -1,0 +1,9 @@
+./*.gguf
+./loed_backup.py
+./ui_backup.py
+**/__pycache__
+**/.env
+env
+./mob1.jpg
+./Dockerfile
+./readme.md
